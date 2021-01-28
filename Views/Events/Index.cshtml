@@ -18,11 +18,11 @@ else
             </tr>
         </thead>
         <tbody>
-            @foreach (KeyValuePair<string, string> meeting in ViewBag.events)
+            @foreach (KeyValuePair<string, string> evt in ViewBag.events)
             {
             <tr>
-                <th>@meeting.Key</th>
-                <th>@meeting.Value</th>
+                <th>@evt.Key</th>
+                <th>@evt.Value</th>
             </tr>
             }
         </tbody>
