@@ -36,3 +36,4 @@ C:\Users\jerme\codecamp2020\visual_studio\CodingEvents\obj\Debug\netcoreapp3.1\C
 C:\Users\jerme\codecamp2020\visual_studio\CodingEvents\obj\Debug\netcoreapp3.1\CodingEvents.genruntimeconfig.cache
 C:\Users\jerme\codecamp2020\visual_studio\CodingEvents\obj\Debug\netcoreapp3.1\CodingEvents.csproj.CopyComplete
 C:\Users\jerme\codecamp2020\visual_studio\CodingEvents\obj\Debug\netcoreapp3.1\Razor\Views\Events\Index.cshtml.g.cs
+C:\Users\jerme\codecamp2020\visual_studio\CodingEvents\obj\Debug\netcoreapp3.1\Razor\Views\Events\Add.cshtml.g.cs

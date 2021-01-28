@@ -10,6 +10,7 @@ namespace CodingEvents.Controllers
     {
         static private List<string> Events = new List<string>();
 
+        // GET /<controller>
         [HttpGet]
         public IActionResult Index()
         {
@@ -18,6 +19,12 @@ namespace CodingEvents.Controllers
             Events.Add("Code with Pride");
             ViewBag.events = Events;
 
+            return View();
+        }
+
+        [HttpGet]
+        public IActionResult Add()
+        {
             return View();
         }
     }
