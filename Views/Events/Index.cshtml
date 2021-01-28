@@ -8,13 +8,32 @@
 {
     <p>No events yet!</p>
 }
+else
+{
+    <table class="table table-bordered table-hover">
+        <thead class="thead-dark">
+            <tr>
+                <th>Name</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (KeyValuePair<string, string> meeting in ViewBag.events)
+            {
+            <tr>
+                <th>@meeting.Key</th>
+                <th>@meeting.Value</th>
+            </tr>
+            }
+        </tbody>
+    </table>
+}
 
 
-<ul>
-    @foreach (string meeting in ViewBag.events)
-    {
-        <li>@meeting</li>
-    }
-</ul>
+
+
+
+
+
 
 
