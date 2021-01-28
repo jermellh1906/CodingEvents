@@ -1,0 +1,12 @@
+.vs/CodingEvents/v16/.suo
+bin/Debug/netcoreapp3.1/CodingEvents.Views.dll
+bin/Debug/netcoreapp3.1/CodingEvents.Views.pdb
+obj/Debug/netcoreapp3.1/CodingEvents.RazorCoreGenerate.cache
+obj/Debug/netcoreapp3.1/CodingEvents.Views.dll
+obj/Debug/netcoreapp3.1/CodingEvents.Views.pdb
+obj/Debug/netcoreapp3.1/CodingEvents.csproj.FileListAbsolute.txt
+obj/Debug/netcoreapp3.1/Razor/Views/Events/Index.cshtml.g.cs
+obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs
+.vs/CodingEvents/DesignTimeBuild/.dtbcache.v2
+.vs/CodingEvents/v16/.suo
+
