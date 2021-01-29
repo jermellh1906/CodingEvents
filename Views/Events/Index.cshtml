@@ -17,6 +17,7 @@ else
         <thead class="thead-dark">
             <tr>
                 <th>ID</th>
+                <th>Edit</th>
                 <th>Name</th>
                 <th>Description</th>
             </tr>
@@ -26,6 +27,7 @@ else
             {
             <tr>
                 <td>@evt.Id</td>
+                <td><a asp-controller="Events" asp-action="Edit" asp-route-eventId="@evt.Id">Edit Event</a></td>
                 <td>@evt.Name</td>
                 <td>@evt.Description</td>
             </tr>
