@@ -14,7 +14,7 @@ namespace CodingEvents.Data
         // add events
         public static void Add(Event newEvent)
         {
-            Events.Add(newEvent.Id, newEvent);
+            Events.Add(newEvent.Id, newEvent);  
         }
 
         // retrieve events
